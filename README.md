@@ -7,7 +7,7 @@ first I created a newtwork layer :
   - abstract class GetResponse to handel Api response
   - adding a logging interceptor 
   
-secondly I created binding file for dependency injection(for futher use e.g GetX)
+secondly I created binding file for dependency injection(for further use e.g GetX)
 then - I made the UI in pages directory
 
 in The UI directory :
