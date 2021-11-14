@@ -21,7 +21,8 @@ However : I passed the model with the constructor to details screen
 I had no time left before deadline so I stopped Here ,
 what's missing:::
 - use components UI
-- use MainContainer as a container for all pages with the appBar & Drawer fixed , only inner screens changes
+- a repository layer 
+- using MainContainer as a container for all pages with the appBar & Drawer fixed , only inner screens changes
 
 in all Cases I will complete this task tomorrow.
 Thank you
