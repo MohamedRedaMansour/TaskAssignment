@@ -1,16 +1,28 @@
 # link_assignment
+Greetings ,
+I was very busy this week and I began working on this task today 7 pm ,this is almost a 4 hours work so it's not complete..
+first I created a newtwork layer :
+  - using Dio with only one instance accross the entire app (apiClient)
+  - Switch case on the request type(Post & Get ) ; the most common api requests type 
+  - abstract class GetResponse to handel Api response
+  - adding a logging interceptor 
+  
+secondly I created binding file for dependency injection(for futher use e.g GetX)
+then - I made the UI in pages directory
 
-A new Flutter project.
+in The UI directory :
+in MainPage
+- there is UI screen 
+- there is a model for api response
+- there is viewModel for each screen
 
-## Getting Started
+However : I passed the model with the constructor to details screen
 
-This project is a starting point for a Flutter application.
+I had no time left before deadline so I stopped Here ,
+what's missing:::
+- use components UI
+- use MainContainer as a container for all pages with the appBar & Drawer fixed only inner screens changes
 
-A few resources to get you started if this is your first Flutter project:
+in all Cases I will complete this task tomorrow.
+Thank you
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
